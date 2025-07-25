@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.challenge-list {
+    margin-top: 20px;
+    border: 2px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.challenge-item {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: 1px solid #444;
+}
+
+.challenge-item:last-child {
+    border-bottom: none;
+}
+
+.challenge-name {
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+.counter-buttons {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.counter-buttons button {
+    font-size: 1.2rem;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.counter-buttons button:hover {
+    background-color: #666;
+}
+
+.add-button {
+    margin-top: 15px;
+    display: block;
+    background-color: #444;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.add-button:hover {
+    background-color: #666;
+}
